@@ -1,0 +1,88 @@
+-------------------------------------------------------------
+Jenkins Curso Intensivo para DevOps y Desarrolladores
+-------------------------------------------------------------
+https://www.udemy.com/course/domina-jenkins-ci-para-devops-y-desarrolladores/
+
+Jenkins para construir una Pipeline de IC automatizada. Lleva tus habilidades de DevOps al siguiente nivel con Jenkins!.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+COURSE CONTENT
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+7 sections • 44 lectures • 2h 20m total length
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Reseña del curso
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Reseña del curso
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Empezando con Jenkins
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Introducción al curso
+Cómo tomar este curso y cómo obtener ayuda
+Mensaje: Cómo llevar el curso y obtener soporte
+Preview
+Introducción a Jenkins e historia de Jenkins
+Advertencia Java 9
+Instalar Java
+Directivas para instalar Java
+Instalar Jenkins
+Arquitectura y términos clave de Jenkins
+Revisión general de Jenkins UI
+Creando nuestro primer Job en Jenkins
+Ejecutando nuestro primer job en Jenkins
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Integración Continua con Jenkins
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Instalando Git y GitHub plugin
+Instalando Maven en nuestro ordenador
+Configurando Jenkins para trabajar con Java, Git y Maven
+Creando nuestro primer proyecto Jenkins basado en Maven
+Ejecutando nuestro primer espacio de trabajo y contrucción en Jenkins
+Sondeo de código fuente en Jenkins
+Otros activadores de construcción de Jenkins
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Inspección Continua con Jenkins
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Informes de calidad de código y cobertura de código
+Texto de soporte: Informes de calidad de código y cobertura de código
+Soporte de Jenkins para otros sistemas build (scripts Ant, Gradle y Shell)
+Texto de soporte: Sistemas build (scripts Ant, Gradle y Shell)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Entrega Continua con Jenkins
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Archivando artefactos de construcción
+Instalar y configurar Tomcat como entorno de pruebas
+Despliegue a entorno de pruebas
+El último plugin Deploy to Container
+Soporte técnico: Despliege a pruebas
+Jenkins Build Pipeline
+Builds paparelas en Jenkins
+Despliegue a producción
+Soporte técnico: Despliege a producción
+Material extra de aprendizaje: 6 de mis favoritos plugins en Jenkins
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Construcciones distribuidas
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Introducción a Construcciones distribuidas en Jenkins
+Instala el nodo Jenkins Master en la nube
+Texto de soporte: Instala el Nodo Jenkins Master en la nube
+Instala Jenkins Slave Agents en la nube
+Texto de soporte: Instala Jenkins Slave Agents en la nube
+Construcciones paralelas en un grupo de nodos de etiqueta en Jenkins
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Materiales de aprendizaje adicionales
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Aprendizaje futuro
+Clase escrita: Futuro aprendizaje
+Cupones para otros de nuestros cursos

@@ -1,0 +1,524 @@
+2021-06-28-08:18:28.770  1 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value True for EnableLogging setting
+2021-06-28-08:18:28.776  1 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value Info for LoggingLevel setting
+2021-06-28-08:18:28.776  1 Info Microsoft.Teams.MeetingAddin.Application SetupLogging Exit
+2021-06-28-08:18:28.779  1 Info ManagedHelpers.Bootstrapper CreateAggregatedInstance Setting up aggregation in managed component
+2021-06-28-08:18:28.780  1 Info ManagedHelpers.Bootstrapper CreateAggregatedInstance Storing inner object references in the outer object
+2021-06-28-08:18:28.975  4 Info Microsoft.Teams.MeetingAddin.Connect OnConnection Entry
+2021-06-28-08:18:28.977  4 Info Microsoft.Teams.MeetingAddin.Connect  ,Property Value:  Regkey propery name: DisableOnConnectionTimingErrorFix
+2021-06-28-08:18:29.056  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value True for EnableLogTeamsRegistryHive setting
+2021-06-28-08:18:29.060  4 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService LogTeamsAuthKeys TeamsHive values: [InstallSource:MSI][adalVersion:v2][LoggedInOnce:1][currentTeamsDeepLinkUrlProtocolVersion:1.0.0.0][minStableTeamsDeepLinkUrlProtocolVersion:1.0.0.0][allowPrivateMeetNow:true][currentTeamsAddinVersion:1.0.21063.3][minStableTeamsAddinEMOVersion:1.0.20275.4][nativeWam:1][webAccountId:YLnVbO301Nt94MARoRiXaBdwD3OkRTJteEceZ_3L53o][HomeUserUpn:jsnl@gft.com][autoAdmittedUsers:EveryoneInCompany]
+2021-06-28-08:18:29.060  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value True for EnableWAMRequestAuthenticator setting
+2021-06-28-08:18:29.062  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableUseCurrentBuildRegistryKey setting
+2021-06-28-08:18:29.062  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableUseCurrentBuildRegistryKey setting
+2021-06-28-08:18:29.062  4 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService IsWAMSupportedByOS EnableUseCurrentBuildRegistryKey False, CurrentMajorVersionNumber 10, CurrentBuildNumber: 19042
+2021-06-28-08:18:29.064  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value 15063 for MinWAMOSBuildNumber setting
+2021-06-28-08:18:29.065  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value True for EnableWAMRequestAuthenticator setting
+2021-06-28-08:18:29.066  4 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService GetRequestAuthenticator AuthenticationMechanism detected: WAM, EnableWAMRequestAuthenticator True, IsWAMSupportedByOS True
+2021-06-28-08:18:29.069  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value True for EnableWAMRequestAuthenticator setting
+2021-06-28-08:18:29.072  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://login.windows.net for WebAccountProviderId setting
+2021-06-28-08:18:29.072  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://login.microsoftonline.com/common for WAMAuthority setting
+2021-06-28-08:18:29.079  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://scheduler.teams.microsoft.com/ for AudienceUrl setting
+2021-06-28-08:18:29.082  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://teams.microsoft.com/ for MiddleTierAudienceUrl setting
+2021-06-28-08:18:29.083  4 Info Microsoft.Teams.MeetingAddin.Factory.HttpClientFactory CreateAuthZHttpClient Entry
+2021-06-28-08:18:29.083  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://teams.microsoft.com/api/authsvc/ for AuthZBaseUrl setting
+2021-06-28-08:18:29.086  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value 1033 for Language setting
+2021-06-28-08:18:29.088  4 Info Microsoft.Teams.MeetingAddin.Application OnStartup Entry
+2021-06-28-08:18:29.100  4 Info Microsoft.Teams.MeetingAddin.AddinLoadTimeReporter .ctor Entry
+2021-06-28-08:18:29.101  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for ReportAccurateLoadTime setting
+2021-06-28-08:18:29.101  4 Info Microsoft.Teams.MeetingAddin.AddinLoadTimeReporter .ctor Registering for setting changed events
+2021-06-28-08:18:29.104  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer .ctor Filesystem watcher initialized
+2021-06-28-08:18:29.113  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer .ctor Filesystem watcher initialized
+2021-06-28-08:18:29.119  4 Info Microsoft.Teams.MeetingAddin.Application SetupLanguage Entry
+2021-06-28-08:18:29.123  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Store Storing Language setting with value 1033
+2021-06-28-08:18:29.126  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed Language changed. Firing change event
+2021-06-28-08:18:29.128  5 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer LoadSettingsFromFile Entry
+2021-06-28-08:18:29.128  4 Info Microsoft.Teams.MeetingAddin.Application SetupLanguage Outlook Language: 1033; IsSupportedByAddin: True; Aggregated Addin Language: 1033
+2021-06-28-08:18:29.128  4 Info Microsoft.Teams.MeetingAddin.Application SetupLanguage Current addin language: en-US
+2021-06-28-08:18:29.133  4 Info Microsoft.Teams.MeetingAddin.Application EnsureRibbonController ribbonController is null. Creating it
+2021-06-28-08:18:29.133  6 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer LoadSettingsFromFile Entry
+2021-06-28-08:18:29.133  4 Info Microsoft.Teams.MeetingAddin.View.AppointmentFactory .ctor Entry
+2021-06-28-08:18:29.134  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value 120 for MeetingAddinCacheInitTimerInSeconds setting
+2021-06-28-08:18:29.136  4 Info Microsoft.Teams.MeetingAddin.Factory.HttpClientFactory CreateAuthZHttpClient Entry
+2021-06-28-08:18:29.136  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://teams.microsoft.com/api/authsvc/ for AuthZBaseUrl setting
+2021-06-28-08:18:29.136  4 Info Microsoft.Teams.MeetingAddin.Factory.HttpClientFactory CreateMiddleTierHttpClient Entry
+2021-06-28-08:18:29.136  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://teams.microsoft.com/api/mt/amer/ for MiddleTierServiceUrl setting
+2021-06-28-08:18:29.141  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableStructuredMeetingDialog setting
+2021-06-28-08:18:29.144  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for IgnoreEMOOutlookSetting setting
+2021-06-28-08:18:29.144  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableEveryMeetingOnline setting
+2021-06-28-08:18:29.144  4 Info Microsoft.Teams.MeetingAddin.MT.MTRequestAsync InitializeMTProperties Entry
+2021-06-28-08:18:29.150  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView Application_Initialized Entry
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.NewMeetingRibbonElement .ctor Created a NewMeetingRibbonElement with id Explorer_MailTab_NewItemMenu_NewMeetingButton
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.NewMeetingRibbonElement .ctor Created a NewMeetingRibbonElement with id Explorer_CalendarTab_NewItemMenu_NewMeetingButton
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.JoinMeetingRibbonElement .ctor Created a JoinMeetingRibbonElement with id Explorer_CalendarTab_SelectedMeeting_RightClickMenu_JoinMeetingButton
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.TeamsMeetingSettingsRibbonElement .ctor Created a TeamsMeetingSettingsRibbonElement with id Appointment_SettingsButton
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.MeetNowRibbonElement .ctor Created a MeetNowRibbonElement with id Explorer_CalendarTab_MeetNowButton
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RemoveTeamsMeetingRibbonElement .ctor Created a RemoveTeamsMeetingRibbonElement with id Appointment_RemoveMeetingButton
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.LobbyOptionsRibbonElement .ctor Created a LobbyOptionsRibbonElement with id Appointment_LobbyOptionsButton
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.LobbyOptionsRibbonElementOutsideSettings .ctor Created a LobbyOptionsRibbonElementOutsideSettings with id Appointment_LobbyOptionsButtonOutsideSettings
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.TeamsMeetingSettingsRibbonElement .ctor Created a TeamsMeetingSettingsRibbonElement with id Appointment_SettingButton
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonGroupElement .ctor Created a RibbonGroupElement with id Explorer_CalendarTab_TeamsMeetingGroup
+2021-06-28-08:18:29.154  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.NewMeetingRibbonElement .ctor Created a NewMeetingRibbonElement with id Explorer_CalendarTab_NewMeetingButton
+2021-06-28-08:18:29.159  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.MeetNowRibbonElement .ctor Created a MeetNowRibbonElement with id Explorer_CalendarTab_MeetNowButton
+2021-06-28-08:18:29.160  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView AddGroup Added group Explorer_CalendarTab_TeamsMeetingGroup,Children Count=2
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonGroupElement .ctor Created a RibbonGroupElement with id Explorer_CalendarTab_SelectedMeetingGroup
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.JoinMeetingRibbonElement .ctor Created a JoinMeetingRibbonElement with id Explorer_CalendarTab_SelectedMeeting_JoinMeetingButton
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView AddGroup Added group Explorer_CalendarTab_SelectedMeetingGroup,Children Count=1
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonGroupElement .ctor Created a RibbonGroupElement with id Explorer_CalendarTab_SelectedRecurringMeetingGroup
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.JoinMeetingRibbonElement .ctor Created a JoinMeetingRibbonElement with id Explorer_CalendarTab_SelectedRecurringMeeting_JoinMeetingButton
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView AddGroup Added group Explorer_CalendarTab_SelectedRecurringMeetingGroup,Children Count=1
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonGroupElement .ctor Created a RibbonGroupElement with id Appointment_TeamsMeetingGroup
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.NewMeetingRibbonElement .ctor Created a NewMeetingRibbonElement with id Appointment_NewMeetingButton
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.JoinMeetingRibbonElement .ctor Created a JoinMeetingRibbonElement with id Appointment_JoinMeetingButton
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.LobbyOptionsRibbonElementOutsideSettings .ctor Created a LobbyOptionsRibbonElementOutsideSettings with id Appointment_LobbyOptionsButtonOutsideSettings
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.TeamsMeetingSettingsRibbonElement .ctor Created a TeamsMeetingSettingsRibbonElement with id Appointment_SettingsButton
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.LobbyOptionsRibbonElement .ctor Created a LobbyOptionsRibbonElement with id Appointment_LobbyOptionsButton
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RemoveTeamsMeetingRibbonElement .ctor Created a RemoveTeamsMeetingRibbonElement with id Appointment_RemoveMeetingButton
+2021-06-28-08:18:29.161  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView AddGroup Added group Appointment_TeamsMeetingGroup,Children Count=4
+2021-06-28-08:18:29.212  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView RegisterExplorer Entry
+2021-06-28-08:18:29.217  4 Warn Microsoft.Teams.MeetingAddin.Telemetry.TelemetryContext AddDuration One of the checkpoints does not exist!
+2021-06-28-08:18:29.217  4 Info Microsoft.Teams.MeetingAddin.Application OnStartup Exit
+2021-06-28-08:18:29.350  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView Ribbon_Load Storing new ribbon object
+2021-06-28-08:18:29.538  6 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer LoadSettingsFromFile Settings loaded successfully! Attempts remaining = 5
+2021-06-28-08:18:29.629  5 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer LoadSettingsFromFile Settings loaded successfully! Attempts remaining = 5
+2021-06-28-08:18:30.387  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer ApplySettings Entry
+2021-06-28-08:18:30.412  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer CheckForChanges Creating new setting IsUserLoggedInToTeams in Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer
+2021-06-28-08:18:30.412  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed IsUserLoggedInToTeams changed. Firing change event
+2021-06-28-08:18:30.416  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer CheckForChanges Creating new setting TeamsDeviceId in Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer
+2021-06-28-08:18:30.416  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsDeviceId changed. Firing change event
+2021-06-28-08:18:30.418  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer CheckForChanges Creating new setting TeamsUserOID in Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer
+2021-06-28-08:18:30.418  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsUserOID changed. Firing change event
+2021-06-28-08:18:30.418  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer CheckForChanges Creating new setting TeamsMachineId in Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer
+2021-06-28-08:18:30.418  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsMachineId changed. Firing change event
+2021-06-28-08:18:30.418  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer CheckForChanges Creating new setting TeamsDesktopSessionId in Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer
+2021-06-28-08:18:30.418  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsDesktopSessionId changed. Firing change event
+2021-06-28-08:18:30.418  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer CheckForChanges Creating new setting TeamsUserUpn in Microsoft.Teams.MeetingAddin.Settings.TeamsDesktopConfigContainer
+2021-06-28-08:18:30.418  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsUserUpn changed. Firing change event
+2021-06-28-08:18:30.445  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer ApplySettings Entry
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer ApplySettings Applying settings for => {"version":"1.4.00.11161","environment":"Production","ring":"general","settings":{"enableMeetingAddin":true,"enablePstn":true,"enableSso":true,"enableMeetingAddinPrefetch":true,"meetingAddinEnableDelegateMeetingPrefetch":null,"meetingAddinCacheExpiryInDays":30,"meetingAddinDelegateCacheExpiryInDays":null,"meetingAddinCacheInitTimerInSeconds":120,"meetingAddinCacheMinimumCreatedTime":"2017-05-29T00:00:00Z","meetingAddinEnableSkipSchedulerForMeetingOccurrenceUpdate":null,"meetingAddinEnableTeamsAndOrganizerAccountTenantComparison":null,"meetingAddinEnableTelemetryUsingMsoAriaTelemetry":true,"meetingAddinEnableCustomAddinVersionInTelemetry":true,"meetingAddinEnableTelemetryContextFix":null,"meetingAddinEnableConcurrentTaskManagerTelemetry":null,"meetingAddinEnableMeetingRefreshOnParticipantUpdate":null,"meetingAddinEnableMeetingRefreshTelemetry":null,"meetingAddinEnableStructuredMeetingDialogV2":null,"meetingAddinEnableConcurrencyTaskManagerForRecipientUpdate":null,"meetingAddinEnableAsyncParticipantUpdate":null,"meetingAddinEnableSkipStructuredMeetingDialogForUpdate":null,"meetingAddinEnableApiSimulationForMTParticipantCount":null,"meetingAddinStructuredMeetingMemberCountThreshold":null,"meetingAddinStructuredMeetingDlCountThreshold":null,"meetingAddinStructuredMeetingDialogMeetingRefreshDelay":null,"meetingAddinEnableStructuredMeetingDialogDynamicResize":null,"meetingAddinEnableStructuredMeetingDialogButtonEllipsis":null,"meetingAddinEnableStructuredMeetingDialogRTLOverride":null,"meetingAddinEnableStructuredMeetingDialogMessageBoxFont":null,"meetingAddinEnableMeetingModelRefreshAfterMeetingOptionsClose":null,"meetingAddinEnableCustomConnectionLimits":false,"meetingAddinCustomConnectionLimit":2,"meetingAddinOwnerResolutionModes":0,"meetingAddinCheckCalendarPermissionsForScheduling":true,"meetingAddinDelegateMeetingCacheBaseLocation":null,"meetingAddinEnableAsynchMeetingCancel":true,"meetingAddinEnableAsynchMeetingUpdate":true,"meetingAddinReportAccurateLoadTime":true,"meetingAddinAccurateLoadTimeReporterTimerInterval":60,"meetingAddinMaxOutlookEventsToRead":5,"meetingAddinEnableJoin":true,"meetingAddinEnsureJoinUrlEncoded":false,"meetingAddinEnableOnBehalfOfScheduling":true,"meetingAddinCheckDelegatePermissionsForScheduling":true,"meetingAddinReleaseComObjects":false,"meetingAddinBypassBrowserForJoin":true,"meetingAddinTeamsClientProtocolHandler":"msteams","meetingAddinBlockSchedulingTeamsMeetingOnSfbMeeting":true,"meetingAddinBlockSfbToTeamsMeetingConversionInNotOutlook2016":null,"meetingAddinRenewExpiredCachedMeetings":false,"meetingAddinCacheRenewalStartTimeBeforeExpiry":96,"meetingAddinDelegateCacheRenewInHoursBeforeExpiry":null,"meetingAddinDelegateMeetingCacheMinCreateTime":null,"enableTeamsMeetingForSipDevices":true,"enableTeamsMeetingForVtcConfRoomDevices":true,"enableEmailAddressThroughPropertyAccessor":null,"meetingAddinEnableBlockingSendMeetingOperation":null,"meetingAddinEnableBlockingBasedOnSchedulerServiceException":null,"meetingAddinEnableBlockingBasedOnHttpRequestException":null,"meetingAddinEnableBlockingBasedOnOAuthException":null,"meetingAddinEnableBlockingBasedOnServerError":null,"meetingAddinEnableBlockingBasedOnSslError":null,"meetingAddinEnableBlockingBasedOnGenericError":null,"meetingAddinEnableBlockingBasedOnWebException":null,"meetingAddinEnableBlockingBasedOnNetworkError":null,"meetingAddinEnableAdmissionTypeInMeetingRequest":null,"meetingAddinEnableOutlookNativeUX":null,"meetingAddinEnableSkypeToTeamsMeetingConversion":null,"meetingEnableSkypeCallDetailsMatchingByMAPIProperty":null,"meetingAddinAdal2Authority":null,"meetingAddinAdal2ClientID":null,"meetingAddinAdal2RedirectUri":null,"meetingAddinEnableOnBehalfofV2":null,"meetingAddinEnableStampingPstnProperties":null,"meetingAddinEnablePatchForBroadcast":true,"meetingAddinEnableStructuredMeeting":null,"meetingAddinDefaultThreadRoleBroadcast":null,"meetingAddinEnableUpdateMeetingPatchAPI":true,"meetingAddinEnableSelectionChangeBackgroundInvalidate":null,"meetingAddinEnableStampingPstnProperties2":null,"meetingAddinEnableAppointmentToMeetingConversion":true,"meetingAddinSchedulerServiceUrl":"https://api.scheduler.teams.microsoft.com","meetingAddinAudienceUrl":null,"meetingAddinAriaToken":"4768049d206d4143a2631a05151cbd12-04a3c22e-e18e-42ea-bc8e-a94b3a3c8b30-7180","meetingAddinAriaCollectorUrl":"https://mobile.pipe.aria.microsoft.com/Collector/3.0","meetingAddinMiddleTierSettingsUrl":null,"meetingAddinMiddleTierServiceUrl":null,"meetingAddinMiddleTierSettingsPath":null,"meetingAddinGetTotalMemberCountsPath":null,"meetingAddinEnableUsingEndpointFromAuthService":null,"meetingAddinFileCacheDirectory":null,"meetingAddinConfigCacheName":null,"meetingAddinEndpointOverrideExpirationDelay":null,"meetingAddinMiddleTierAudienceUrl":null,"meetingAddinEnableTLS2ByDefault":true,"meetingAddinEnableTeamsAccountComparison":null,"meetingAddinEnableGetUserIdFromSettingsFile":null,"meetingAddinShowWarningOnTeamsAccountComparisionFail":null,"meetingAddinEnableStampingJoinUrlInMso":false,"meetingAddinEnableJoinLauncherParameters":null,"meetingAddinEnableLobbyOptionsForAddin":true,"meetingAddinEnableLobbyOptionsTestHook":null,"meetingAddinRemoveMAPIPropertiesForConversion":null,"meetingAddinEnableDeserializationIssue":true,"meetingAddinMeetingUrlMismatch":true,"meetingAddinUpdateAutoAdmittersOnWindowOpen":null,"meetingAddinEnableOfficeDataControls":true,"meetingAddinDefaultDiagnosticLevel":2,"meetingAddinEnableAnonJoinBypass":null,"meetingAddinEnableGetJoinUrlFromMeetingItemForMSP":true,"meetingAddinEnableSchedulingServiceErrorCodes":null,"meetingAddinEnableAuthContextInvalidateOnSignOut":null,"meetingAddinEnableMSOSafelinkJoinUrlForMeetingItem":true,"meetingAddinEnableSendMOOnlyIfValueIsDifferent":null,"meetingAddinOutlookSafelinkMinVersion":"16.0.0.11725","meetingAddinEnableMOForOrganizerOnly":null,"meetingaddinEnableParticipantsInInviteeList":null,"meetingAddinDisableSkypeToTeamsConversionWhenOneNoteLinkIsPresent":null,"meetingaddinEnableDelegateFixForRESTBasedSharedCalendar":true,"meetingaddinEnableNavigateMOToBrowser":null,"meetingAddinEnableSanitizeJoinUrl":true,"meetingAddinEnableDomainValidationOnUrl":null,"meetingAddinHostDomianList":null,"meetingAddinEnableUsePostOnMeetingTypeChange":true,"meetingAddinEnableCacheInvalidateOnSignOut":null,"meetingAddinEnableBlockingUpdateMeetingOnMeetingUrlMismatch":true,"meetingAddinDisableSkypeToTeamsConversionWhenSFBIsActive":null,"meetingAddinEnableMatchOnMeetupJoinInMeetingBlob":null,"meetingAddinEnableWAMRequestAuthenticator":true,"meetingAddinWebAccountProviderId":null,"meetingAddinWAMAuthority":"https://login.microsoftonline.com/common","meetingAddinMinWAMOSBuildNumber":null,"meetingAddinEnableAuthenticatorPerRequest":null,"meetingAddinEnableWAMSyncAuthValidation":null,"meetingAddinEnableOAuthOutlookRestartMessage":null,"meetingAddinEnableNewOAuthErrorMessage":null,"meetingAddinEnableLogTeamsRegistryHive":null,"meetingAddinDisableAriaTelemetry":null,"meetingAddinEnableJsonContractResolver":null,"meetingAddinEnableEmbeddedMeetingOptions":true,"meetingAddinEnableDoNotPrintMapiProperty":null,"meetingAddinEnableInspectorReleaseFix":null,"meetingAddinDisableDelegationCheckOnFOthersAppt":null,"meetingAddinBlockTeamsMeetingOnOccurence":false,"meetingAddinEnableMeetNowPrefetch":null,"meetingAddinEnableAuthForEmbeddedMeetingOptions":true,"meetingAddinSpecificMeetingOptionsVersion":null,"meetingAddinEnableClientSideInviteeList":true,"meetingAddinMeetingOptionsDomainOverride":null,"meetingAddinMeetingOptionsDebugQsps":null,"meetingAddinEnableMeetingOptionsRingFromTeams":null,"meetingAddinEnableGetFullApplicationDirectoryPath":null,"meetingAddinMiddleTierAltAudienceUrl":null,"meetingAddinAuthZBaseUrl":null,"meetingAddinAuthZPath":null,"meetingAddinEnableTSAuthCookieForMeetingOptions":true,"meetingAddinMinStableTeamsAddinEMOVersion":"1.0.20275.4","meetingAddinEnableEveryMeetingOnline":true,"meetingAddinEnablePrivateMeetNow":true,"meetingAddinEnableUseCurrentBuildRegistryKey":null,"meetingAddinIgnoreEMOOutlookSetting":null,"meetingAddinOutlookSettingDataRegSubKey":null,"meetingAddinOutlookSettingEMORegKey":null,"meetingAddinEnableAccountComparisonById":false,"meetingAddinDisableEMOOnAccountComparisonFailure":false,"meetingAddinEmbeddedMeetingOptionsSkin":null,"meetingAddinEmbeddedMeetingOptionsAgent":null,"meetingAddinEnableEMOForDelegates":false,"meetingAddinEnableRemoveEMOForSentItems":false,"meetingAddinEnableRemoveTeamsMeetingOnClearedBlob":true,"meetingAddinEnableEmbeddedMeetingOptionsUserAgent":true,"meetingAddinEnableSendingCreateForOccurrenceOfNonTeamsSeries":false,"meetingAddinEnableClearAppointmentPropertiesOnDiscardedDraft":false,"meetingAddinEnableRemoveTeamsMeetingOnClearedBlobForSentItems":false,"meetingAddinEnableRemovingTeamsMeetingOnCancelInvitation":false,"meetingAddinDisableEMOOnDontHostOnlineClick":false,"meetingAddinEnableBlockingWebBrowserShortcuts":false,"meetingAddinEnableStoringTeamsMeetingUrlOnOutlook":false,"meetingAddinEnableRemovingTeamsMeetingUrlFromOutlook":false,"meetingAddinEnableSupportForO365GroupCalendar":true,"meetingAddinEnableSpeedyMeetings":true,"meetingAddinOutlookCalendarOptionRegPath":null,"meetingAddinOutlookShortenEventsRegKey":null,"meetingAddinEndEarlyLongRegKey":null,"meetingAddinEndEarlyShortRegKey":null,"meetingAddinDefaultLongMeetingAdjustmentMinutes":null,"meetingAddinDefaultShortMeetingAdjustmentMinutes":null,"meetingAddinEnableConversationIdTelemetryForRemoveMeetingBlob":false,"meetingAddinOutlookEMOMinVersion":null,"meetingAddinEnableEMOMinOutlookVersionComparison":false,"meetingAddinEMOCheckIfAppointemntIsForAttendee":null}}
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting TeamsEnvironment in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsEnvironment changed. Firing change event
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting TeamsRing in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsRing changed. Firing change event
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting TeamsVersion in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsVersion changed. Firing change event
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableMeetingAddin in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableMeetingAddin changed. Firing change event
+2021-06-28-08:18:30.629  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView Settings_Changed Setting changed
+2021-06-28-08:18:30.631  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView InvalidateRibbonElements Invalidating 18 elements
+2021-06-28-08:18:30.633  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnablePstn in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.633  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnablePstn changed. Firing change event
+2021-06-28-08:18:30.633  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableSso in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.633  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableSso changed. Firing change event
+2021-06-28-08:18:30.633  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView Settings_Changed Setting changed
+2021-06-28-08:18:30.633  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView InvalidateRibbonElements Invalidating 18 elements
+2021-06-28-08:18:30.633  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableMeetingAddinPrefetch in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.633  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableMeetingAddinPrefetch changed. Firing change event
+2021-06-28-08:18:30.633  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableDelegateMeetingPrefetch is null
+2021-06-28-08:18:30.635  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting MeetingAddinCacheExpiryInDays in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.635  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed MeetingAddinCacheExpiryInDays changed. Firing change event
+2021-06-28-08:18:30.635  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MeetingAddinDelegateCacheExpiryInDays is null
+2021-06-28-08:18:30.635  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting MeetingAddinCacheInitTimerInSeconds in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.635  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed MeetingAddinCacheInitTimerInSeconds changed. Firing change event
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting MeetingAddinCacheMinimumCreatedTime in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed MeetingAddinCacheMinimumCreatedTime changed. Firing change event
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableSkipSchedulerForMeetingOccurrenceUpdate is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableTeamsAndOrganizerAccountTenantComparison is null
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableTelemetryUsingMsoAriaTelemetry in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableTelemetryUsingMsoAriaTelemetry changed. Firing change event
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableCustomAddinVersionInTelemetry in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableCustomAddinVersionInTelemetry changed. Firing change event
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableTelemetryContextFix is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableConcurrentTaskManagerTelemetry is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableMeetingRefreshOnParticipantUpdate is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableMeetingRefreshTelemetry is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableStructuredMeetingDialog is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableConcurrencyTaskManagerForRecipientUpdate is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableAsyncParticipantUpdate is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableSkipStructuredMeetingDialogForUpdate is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableApiSimulationForMTParticipantCount is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for StructuredMeetingMemberCountThreshold is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for StructuredMeetingDlCountThreshold is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for StructuredMeetingDialogMeetingRefreshDelay is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableStructuredMeetingDialogDynamicResize is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableStructuredMeetingDialogButtonEllipsis is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableStructuredMeetingDialogRTLOverride is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableStructuredMeetingDialogMessageBoxFont is null
+2021-06-28-08:18:30.639  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableMeetingModelRefreshAfterMeetingOptionsClose is null
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableCustomConnectionLimit in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableCustomConnectionLimit changed. Firing change event
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting CustomConnectionLimit in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed CustomConnectionLimit changed. Firing change event
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting OwnerResolutionModes in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed OwnerResolutionModes changed. Firing change event
+2021-06-28-08:18:30.639  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting CheckCalendarPermissionsForScheduling in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.647  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed CheckCalendarPermissionsForScheduling changed. Firing change event
+2021-06-28-08:18:30.647  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DelegateMeetingCacheBaseLocation is null
+2021-06-28-08:18:30.647  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableAsyncMeetingCancel in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.647  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableAsyncMeetingCancel changed. Firing change event
+2021-06-28-08:18:30.647  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableAsyncMeetingUpdate in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.647  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableAsyncMeetingUpdate changed. Firing change event
+2021-06-28-08:18:30.647  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting ReportAccurateLoadTime in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.647  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed ReportAccurateLoadTime changed. Firing change event
+2021-06-28-08:18:30.651  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value 60 for AccurateLoadTimeReporterTimerInterval setting
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting AccurateLoadTimeReporterTimerInterval in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed AccurateLoadTimeReporterTimerInterval changed. Firing change event
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting MaxOutlookEventsToRead in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed MaxOutlookEventsToRead changed. Firing change event
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableJoinFromAddin in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableJoinFromAddin changed. Firing change event
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnsureJoinUrlEncoded in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnsureJoinUrlEncoded changed. Firing change event
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableOnBehalfOfScheduling in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableOnBehalfOfScheduling changed. Firing change event
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting CheckDelegatePermissionsForScheduling in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed CheckDelegatePermissionsForScheduling changed. Firing change event
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting ReleaseComObjects in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed ReleaseComObjects changed. Firing change event
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting BypassBrowserForJoin in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.652  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed BypassBrowserForJoin changed. Firing change event
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting TeamsClientProtocolHandler in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed TeamsClientProtocolHandler changed. Firing change event
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableStampingPstnProperties is null
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting BlockSchedulingTeamsMeetingOnSfbMeeting in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed BlockSchedulingTeamsMeetingOnSfbMeeting changed. Firing change event
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for BlockSfbToTeamsMeetingConversionInNotOutlook2016 is null
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting RenewExpiredCachedMeetings in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed RenewExpiredCachedMeetings changed. Firing change event
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting CacheRenewalStartTimeBeforeExpiry in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed CacheRenewalStartTimeBeforeExpiry changed. Firing change event
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DelegateCacheRenewInHoursBeforeExpiry is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DelegateMeetingCacheMinCreateTime is null
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableTeamsMeetingForSipDevices in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableTeamsMeetingForSipDevices changed. Firing change event
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableTeamsMeetingForVtcConfRoomDevices in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableTeamsMeetingForVtcConfRoomDevices changed. Firing change event
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableEmailAddressThroughPropertyAccessor is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingSendMeetingOperation is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingBasedOnSchedulerServiceException is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingBasedOnHttpRequestException is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingBasedOnOAuthException is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingBasedOnServerError is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingBasedOnSslError is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingBasedOnGenericError is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingBasedOnWebException is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableBlockingBasedOnNetworkError is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableAdmissionTypeInMeetingRequest is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableOutlookNativeUX is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableSkypeToTeamsMeetingConversion is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableTeamsAccountComparison is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableGetUserIdFromSettingsFile is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for ShowWarningOnTeamsAccountComparisionFail is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableSkypeCallDetailsMatchingByMAPIProperty is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for Adal2Authority is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for Adal2ClientID is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for Adal2RedirectUri is null
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableOnBehalfofV2 is null
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnablePatchForBroadcast in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnablePatchForBroadcast changed. Firing change event
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DefaultThreadRoleBroadcast is null
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableUpdateMeetingPatchAPI in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.653  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableUpdateMeetingPatchAPI changed. Firing change event
+2021-06-28-08:18:30.653  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableSelectionChangeBackgroundInvalidate is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableStampingPstnProperties2 is null
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting SchedulerServiceUrl in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed SchedulerServiceUrl changed. Firing change event
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for AudienceUrl is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MiddleTierSettingsUrl is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MiddleTierServiceUrl is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MiddleTierSettingsUrl is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for GetTotalMemberCountsPath is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableUsingEndpointFromAuthService is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for FileCacheDirectory is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for ConfigCacheName is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EndpointOverrideExpirationDelay is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MiddleTierAudienceUrl is null
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableTLS2ByDefault in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableTLS2ByDefault changed. Firing change event
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableStampingJoinUrlInMso in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableStampingJoinUrlInMso changed. Firing change event
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableJoinLauncherParameters is null
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableLobbyOptionsForAddin in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableLobbyOptionsForAddin changed. Firing change event
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableLobbyOptionsTestHook is null
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting AriaToken in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed AriaToken changed. Firing change event
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting AriaCollectorUrl in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed AriaCollectorUrl changed. Firing change event
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for RemoveMAPIPropertiesForConversion is null
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableStructuredMeeting is null
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting MeetingUrlMismatch in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed MeetingUrlMismatch changed. Firing change event
+2021-06-28-08:18:30.654  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for UpdateAutoAdmittersOnWindowOpen is null
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableDeserializationIssueFix in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableDeserializationIssueFix changed. Firing change event
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableOfficeDataControls in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.654  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableOfficeDataControls changed. Firing change event
+2021-06-28-08:18:30.657  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting DefaultDiagnosticLevel in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed DefaultDiagnosticLevel changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableAnonJoinBypass is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableGetJoinUrlFromMeetingItemForMSO in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableGetJoinUrlFromMeetingItemForMSO changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableSchedulingServiceErrorCodes is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableAuthContextInvalidateOnSignOut is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableMSOSafelinkJoinUrlForMeetingItem in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableMSOSafelinkJoinUrlForMeetingItem changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableSendMOOnlyIfValueIsDifferent is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting OutlookSafelinkMinVersion in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed OutlookSafelinkMinVersion changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableMOForOrganizerOnly is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableParticipantsInInviteeList is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DisableSkypeToTeamsConversionWhenOneNoteLinkIsPresent is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableDelegateFixForRESTBasedSharedCalendar in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableDelegateFixForRESTBasedSharedCalendar changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableNavigateMOToBrowser is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableSanitizeJoinUrl in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableSanitizeJoinUrl changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableDomainValidationOnUrl is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for HostDomianList is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableUsePostOnMeetingTypeChange in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableUsePostOnMeetingTypeChange changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableCacheInvalidateOnSignOut is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableBlockingUpdateMeetingOnMeetingUrlMismatch in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableBlockingUpdateMeetingOnMeetingUrlMismatch changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DisableSkypeToTeamsConversionWhenSFBIsActive is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableWAMRequestAuthenticator in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableWAMRequestAuthenticator changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for WebAccountProviderId is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting WAMAuthority in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed WAMAuthority changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MinWAMOSBuildNumber is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableAuthenticatorPerRequest is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableWAMSyncAuthValidation is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableOAuthOutlookRestartMessage is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableNewOAuthErrorMessage is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableLogTeamsRegistryHive is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DisableAriaTelemetry is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableJsonContractResolver is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableEmbeddedMeetingOptions in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableEmbeddedMeetingOptions changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableDoNotPrintMapiProperty is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableInspectorReleaseFix is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DisableDelegationCheckOnFOthersAppt is null
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting BlockTeamsMeetingOnOccurence in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed BlockTeamsMeetingOnOccurence changed. Firing change event
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableAuthForEmbeddedMeetingOptions in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableAuthForEmbeddedMeetingOptions changed. Firing change event
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableClientSideInviteeList in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.658  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableClientSideInviteeList changed. Firing change event
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MeetingOptionsDomainOverride is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MeetingOptionsDebugQsps is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for MiddleTierAltAudienceUrl is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for AuthZBaseUrl is null
+2021-06-28-08:18:30.658  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for AuthZPath is null
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableTSAuthCookieForMeetingOptions in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableTSAuthCookieForMeetingOptions changed. Firing change event
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting MinStableTeamsAddinEMOVersion in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed MinStableTeamsAddinEMOVersion changed. Firing change event
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableEveryMeetingOnline in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableEveryMeetingOnline changed. Firing change event
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableSkypeToTeamsMeetingConversion setting
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for IgnoreEMOOutlookSetting setting
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableEMOMinOutlookVersionComparison setting
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value Software\Microsoft\Office\Outlook\Settings\Data for OutlookSettingDataRegSubKey setting
+2021-06-28-08:18:30.661  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value global_OnlineMeetings_EnabledByDefault for OutlookSettingEMORegKey setting
+2021-06-28-08:18:30.663  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue GetRegistryValue Software\Microsoft\Office\Outlook\Settings\Data global_OnlineMeetings_EnabledByDefault
+2021-06-28-08:18:30.664  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue Registry Value: {"name":"onlinemeetings_enabledbydefault","itemClass":"TenantSetting","id":"RgAAAACGpI1sVf8YQYTtTafcWiccBwAiBMMHnvaeRIqImSsg2rO0AAABhAznAAAiBMMHnvaeRIqImSsg2rO0AAABhKI2AAAA0","scope":"global","parentSetting":"","secondaryKey":"onlinemeetings_enabledbydefault","status":"SYNCEDTOSERVICE","type":"Bool","timestamp":0,"metadata":"","value":"false","isFirstSync":"false","source":"UserOverride"}
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.AppSettings IsEMOEnabled Registry Value: false
+2021-06-28-08:18:30.675  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for OutlookSettingDataRegSubKey is null
+2021-06-28-08:18:30.675  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for OutlookSettingEMORegKey is null
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableAccountComparisonById in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableAccountComparisonById changed. Firing change event
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting DisableEMOOnAccountComparisonFailure in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed DisableEMOOnAccountComparisonFailure changed. Firing change event
+2021-06-28-08:18:30.675  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EmbeddedMeetingOptionsSkin is null
+2021-06-28-08:18:30.675  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EmbeddedMeetingOptionsAgent is null
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnablePrivateMeetNow in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnablePrivateMeetNow changed. Firing change event
+2021-06-28-08:18:30.675  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableUseCurrentBuildRegistryKey is null
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableEMOForDelegates in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableEMOForDelegates changed. Firing change event
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableRemoveEMOForSentItems in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableRemoveEMOForSentItems changed. Firing change event
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableAppointmentToMeetingConversion in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableAppointmentToMeetingConversion changed. Firing change event
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableRemoveTeamsMeetingOnClearedBlob in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableRemoveTeamsMeetingOnClearedBlob changed. Firing change event
+2021-06-28-08:18:30.675  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for IgnoreEMOOutlookSetting is null
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableEmbeddedMeetingOptionsUserAgent in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableEmbeddedMeetingOptionsUserAgent changed. Firing change event
+2021-06-28-08:18:30.675  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableSendingCreateForOccurrenceOfNonTeamsSeries in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableSendingCreateForOccurrenceOfNonTeamsSeries changed. Firing change event
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableClearAppointmentPropertiesOnDiscardedDraft in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableClearAppointmentPropertiesOnDiscardedDraft changed. Firing change event
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableRemoveTeamsMeetingOnClearedBlobForSentItems in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableRemoveTeamsMeetingOnClearedBlobForSentItems changed. Firing change event
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableRemovingTeamsMeetingOnCancelInvitation in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableRemovingTeamsMeetingOnCancelInvitation changed. Firing change event
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting DisableEMOOnDontHostOnlineClick in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed DisableEMOOnDontHostOnlineClick changed. Firing change event
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableBlockingWebBrowserShortcuts in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableBlockingWebBrowserShortcuts changed. Firing change event
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableGetFullApplicationDirectoryPath is null
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableStoringTeamsMeetingUrlOnOutlook in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableStoringTeamsMeetingUrlOnOutlook changed. Firing change event
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableRemovingTeamsMeetingUrlFromOutlook in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableRemovingTeamsMeetingUrlFromOutlook changed. Firing change event
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableSupportForO365GroupCalendar in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableSupportForO365GroupCalendar changed. Firing change event
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableSpeedyMeetings in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableSpeedyMeetings changed. Firing change event
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for OutlookShortenEventsRegKey is null
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for OutlookCalendarOptionRegPath is null
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EndEarlyLongRegKey is null
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EndEarlyShortRegKey is null
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DefaultLongMeetingAdjustmentMinutes is null
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for DefaultShortMeetingAdjustmentMinutes is null
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for SpecificMeetingOptionsVersion is null
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableConversationIdTelemetryForRemoveMeetingBlob in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableConversationIdTelemetryForRemoveMeetingBlob changed. Firing change event
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for OutlookEMOMinVersion is null
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Creating new setting EnableEMOMinOutlookVersionComparison in Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer
+2021-06-28-08:18:30.676  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Container_Changed EnableEMOMinOutlookVersionComparison changed. Firing change event
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableMeetNowPrefetch is null
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EnableMeetingOptionsRingFromTeams is null
+2021-06-28-08:18:30.676  4 Warn Microsoft.Teams.MeetingAddin.Settings.TeamsSettingsJsonContainer CheckForChanges Value for EMOCheckIfAppointemntIsForAttendee is null
+2021-06-28-08:18:30.682  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager Initialize Entry
+2021-06-28-08:18:30.683  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager ReadConnectionSetting Entry
+2021-06-28-08:18:30.684  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager ReadConnectionSetting Exit
+2021-06-28-08:18:30.685  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager ReadDiagnosticLevel Entry
+2021-06-28-08:18:30.685  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager ReadDiagnosticLevel Exit
+2021-06-28-08:18:30.688  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager AssignCategoryToTelemeryKey Entry
+2021-06-28-08:18:30.708  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager AssignCategoryToTelemeryKey Loaded 222 TelemetryKey category
+2021-06-28-08:18:30.708  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager AssignCategoryToTelemeryKey Exit
+2021-06-28-08:18:30.708  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager Initialize Exit
+2021-06-28-08:18:30.708  4 Info Microsoft.Teams.MeetingAddin.Application SetupTelemetryAsync Entry
+2021-06-28-08:18:30.708  6 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for DisableAriaTelemetry setting
+2021-06-28-08:18:30.708  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryWriteHKCURegistry WriteHKCURegistry Software\Microsoft\Office\Teams currentTeamsAddinVersion 1.0.21063.3
+2021-06-28-08:18:30.713  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryWriteHKCURegistry WriteHKCURegistry Software\Microsoft\Office\Teams minStableTeamsAddinEMOVersion 1.0.20275.4
+2021-06-28-08:18:30.715  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue GetRegistryValue Software\Microsoft\Teams\MeetingAddin AddOnlineMeetingFirstRunShown
+2021-06-28-08:18:30.715  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue Registry Value: False
+2021-06-28-08:18:30.715  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue GetRegistryValue Software\Microsoft\Teams\MeetingAddin removeOnlineMeetingFirstRunInfoShown
+2021-06-28-08:18:30.715  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue Registry Value: False
+2021-06-28-08:18:30.719  6 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Client.EventApiClient GetEvtApiCallDefault Entry
+2021-06-28-08:18:30.721  6 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Utilities.DynamicLibraryUtils GetProcFromModule Successfully loaded method $evt_api_call_default from module $MsoAriaCApi.dll.
+2021-06-28-08:18:30.721  6 Info Microsoft.Teams.MeetingAddin.Telemetry.TelemetryManager BeginInitialize Entry
+2021-06-28-08:18:30.723  6 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Provider.MsoAriaTelemetryProvider Initialize Entry
+2021-06-28-08:18:30.724  6 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Client.EventApiClient Open Entry
+2021-06-28-08:18:30.850  4 Info Microsoft.Teams.MeetingAddin.Telemetry.TelemetryManager CompleteInitialize Entry
+2021-06-28-08:18:30.856  4 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Provider.MsoAriaTelemetryProvider SetupCommonProperties Entry
+2021-06-28-08:18:30.992  4 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Provider.MsoAriaTelemetryProvider GenerateSessionId Generated a SessionID: 00d25a9e-99df-4aa0-a566-ac5ffd0dba94.
+2021-06-28-08:18:30.992  4 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Provider.MsoAriaTelemetryProvider GenerateSessionId Generated a SessionID: 6b60c559-37ac-413b-a3ef-f1036a3bbc8e.
+2021-06-28-08:18:30.993  4 Info Microsoft.Teams.MeetingAddin.Telemetry.TelemetryFlowController SendPendingTelemetry Pending contexts count: 1
+2021-06-28-08:18:31.000  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for DisableAriaTelemetry setting
+2021-06-28-08:18:31.022  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.023  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.023  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.023  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.023  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.023  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.023  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.024  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:31.027  4 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Client.EventApiClient LogEvent Entry
+2021-06-28-08:18:39.158  4 Info Microsoft.Teams.MeetingAddin.MT.MTRequestAsync FetchTeamsMeetingPolicy Entry
+2021-06-28-08:18:39.230  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://teams.microsoft.com/api/mt/amer/beta/me/settings/meeting for MiddleTierSettingsUrl setting
+2021-06-28-08:18:39.251  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value True for EnableAuthenticatorPerRequest setting
+2021-06-28-08:18:39.251  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value True for EnableLogTeamsRegistryHive setting
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService LogTeamsAuthKeys TeamsHive values: [InstallSource:MSI][adalVersion:v2][LoggedInOnce:1][currentTeamsDeepLinkUrlProtocolVersion:1.0.0.0][minStableTeamsDeepLinkUrlProtocolVersion:1.0.0.0][allowPrivateMeetNow:true][currentTeamsAddinVersion:1.0.21063.3][minStableTeamsAddinEMOVersion:1.0.20275.4][nativeWam:1][webAccountId:YLnVbO301Nt94MARoRiXaBdwD3OkRTJteEceZ_3L53o][HomeUserUpn:jsnl@gft.com][autoAdmittedUsers:EveryoneInCompany]
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableUseCurrentBuildRegistryKey setting
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableUseCurrentBuildRegistryKey setting
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService IsWAMSupportedByOS EnableUseCurrentBuildRegistryKey False, CurrentMajorVersionNumber 10, CurrentBuildNumber: 19042
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value 15063 for MinWAMOSBuildNumber setting
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService GetRequestAuthenticator AuthenticationMechanism detected: WAM, EnableWAMRequestAuthenticator True, IsWAMSupportedByOS True
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://login.windows.net for WebAccountProviderId setting
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://scheduler.teams.microsoft.com/ for AudienceUrl setting
+2021-06-28-08:18:39.252  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://teams.microsoft.com/ for MiddleTierAudienceUrl setting
+2021-06-28-08:18:39.285  5 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService GetWAMCredentials WAMAuthenticator AddAuthorization
+2021-06-28-08:18:39.285  5 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService GetWAMCredentials WAMAuthenticator GetWAMCredentials, https://teams.microsoft.com/, and accountId YLnVbO301Nt94MARoRiXaBdwD3OkRTJteEceZ_3L53o
+2021-06-28-08:18:39.360  12 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value 1fec8e78-bce4-4aaf-ab1b-5451cc387264 for Adal2ClientID setting
+2021-06-28-08:18:39.361  12 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService GetWAMTokenSilently WAMAuthenticator requesting silent token with correlationId, {80e16f27-2bc6-4935-a772-bbecbd5cc3cc}
+2021-06-28-08:18:40.928  5 Info Microsoft.Teams.MeetingAddin.Scheduler.SchedulerService GetWAMCredentials WAMAuthenticator GetWAMTokenSilently result, Success
+2021-06-28-08:18:40.928  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableUsingEndpointFromAuthService setting
+2021-06-28-08:18:40.928  5 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value https://teams.microsoft.com/api/mt/amer/beta/me/settings/meeting for MiddleTierSettingsUrl setting
+2021-06-28-08:18:41.121  8 Info Microsoft.Teams.MeetingAddin.MT.MTRequestAsync FetchTeamsMeetingPolicy Successfully got the teamsmeetingpolicy: Microsoft.Teams.MeetingAddin.MT.TeamsMeetingPolicy
+2021-06-28-08:18:41.121  8 Info Microsoft.Teams.MeetingAddin.MT.MTRequestAsync SerializeToRegKey Set the value of TeamsMeetingPolicy to regkey
+2021-06-28-08:18:49.551  4 Info Microsoft.Teams.MeetingAddin.Controller.RibbonController Inspectors_NewInspector Entry
+2021-06-28-08:18:49.581  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value True for EnableInspectorReleaseFix setting
+2021-06-28-08:18:54.230  4 Info Microsoft.Teams.MeetingAddin.View.ExplorerView Explorer_Close Entry
+2021-06-28-08:18:54.232  4 Info Microsoft.Teams.MeetingAddin.View.Ribbon.RibbonView ExplorerView_Close Entry
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.Connect OnDisconnection Entry
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.Application OnShutdown Entry
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.Application ShutdownAddin Entry
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for EnableSkypeToTeamsMeetingConversion setting
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for IgnoreEMOOutlookSetting setting
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value Software\Microsoft\Office\Outlook\Settings\Data for OutlookSettingDataRegSubKey setting
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value global_OnlineMeetings_EnabledByDefault for OutlookSettingEMORegKey setting
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue GetRegistryValue Software\Microsoft\Office\Outlook\Settings\Data global_OnlineMeetings_EnabledByDefault
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue Registry Value: {"name":"onlinemeetings_enabledbydefault","itemClass":"TenantSetting","id":"RgAAAACGpI1sVf8YQYTtTafcWiccBwAiBMMHnvaeRIqImSsg2rO0AAABhAznAAAiBMMHnvaeRIqImSsg2rO0AAABhKI2AAAA0","scope":"global","parentSetting":"","secondaryKey":"onlinemeetings_enabledbydefault","status":"SYNCEDTOSERVICE","type":"Bool","timestamp":0,"metadata":"","value":"false","isFirstSync":"false","source":"UserOverride"}
+2021-06-28-08:18:54.235  4 Info Microsoft.Teams.MeetingAddin.AppSettings IsEMOEnabled Registry Value: false
+2021-06-28-08:18:54.242  4 Info Microsoft.Teams.MeetingAddin.Controller.RibbonController Dispose Entry
+2021-06-28-08:18:54.242  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for IgnoreEMOOutlookSetting setting
+2021-06-28-08:18:54.242  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value Software\Microsoft\Office\Outlook\Settings\Data for OutlookSettingDataRegSubKey setting
+2021-06-28-08:18:54.242  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value global_OnlineMeetings_EnabledByDefault for OutlookSettingEMORegKey setting
+2021-06-28-08:18:54.242  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue GetRegistryValue Software\Microsoft\Office\Outlook\Settings\Data global_OnlineMeetings_EnabledByDefault
+2021-06-28-08:18:54.242  4 Info Microsoft.Teams.MeetingAddin.App.RegistryEditorService TryReadHKCURegistryValue Registry Value: {"name":"onlinemeetings_enabledbydefault","itemClass":"TenantSetting","id":"RgAAAACGpI1sVf8YQYTtTafcWiccBwAiBMMHnvaeRIqImSsg2rO0AAABhAznAAAiBMMHnvaeRIqImSsg2rO0AAABhKI2AAAA0","scope":"global","parentSetting":"","secondaryKey":"onlinemeetings_enabledbydefault","status":"SYNCEDTOSERVICE","type":"Bool","timestamp":0,"metadata":"","value":"false","isFirstSync":"false","source":"UserOverride"}
+2021-06-28-08:18:54.242  4 Info Microsoft.Teams.MeetingAddin.AppSettings IsEMOEnabled Registry Value: false
+2021-06-28-08:18:54.242  4 Info Microsoft.Teams.MeetingAddin.Settings.SettingsBase Lookup Returning default value False for DisableAriaTelemetry setting
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.244  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.245  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.245  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.245  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.245  4 Info Microsoft.Teams.MeetingAddin.Telemetry.OfficeDataControlManager CanAddTelemetryKey Diagnostic level is unset. Hence picking the Default value
+2021-06-28-08:18:54.246  4 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Client.EventApiClient LogEvent Entry
+2021-06-28-08:18:54.246  4 Info Microsoft.Teams.MeetingAddin.Telemetry.TelemetryManager Close Entry
+2021-06-28-08:18:54.247  4 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Provider.MsoAriaTelemetryProvider FlushAndTeardown Entry
+2021-06-28-08:18:54.247  4 Info Microsoft.Teams.MeetingAddin.Telemetry.MsoAriaTelemetry.Client.EventApiClient Close Entry

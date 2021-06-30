@@ -1,0 +1,94 @@
+-------------------------------------------------------------
+Understanding NPM - Node.js Package Manager
+-------------------------------------------------------------
+https://www.udemy.com/course/understanding-npm/
+
+Understand and practice NPM. Learn how to use NPM in Node.js, how to install NPM packages, how to configure NPM scripts.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+COURSE CONTENT
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+8 sections • 41 lectures • 2h 19m total length
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Introduction
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+LECTURE -Intro
+Let's get connected! Join the Learning Community
+LECTURE - Course Navigation.mp4
+PRACTICE - Practice Exercises (IMPORTANT)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Introduction to the NPM
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PRACTICE -Exploring NPM packages
+LECTURE -Package.json and init
+LECTURE -Semantic Versioning
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Installation of the NPM packages
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+LECTURE    -Packages Installation
+PRACTICE   -Install package in the project
+CHALLENGE  -Install Semver package
+CHALLENGE  -Install Semver Package - SOLUTION
+PRACTICE   -Install Browserslist - package with own dependencies
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Dependencies us Development Dependencies
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LECTURE      -Dependencies and Development Dependencies
+PRACTICE     -Examine Development Dependencies
+PRACTICE     -Browser App vs Server Package
+CHALLENGE    -Clock Browser Application
+✓ CHALLENGE  -Clock Browser Application - SOLUTION
+LECTURE      -Clock Challenge Summary
+LECTURE      -Browser App vs Public Package
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NPM packages versions and package-lock.json file
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PRACTICE     -Exploring Package Information and Versions
+PRACTICE     -Installing Specific Package Version
+LECTURE      -Why package-lock.json file is needed?
+CHALLENGE    -Reinstall old package version without lock file
+✓ CHALLENGE  -Reinstall old package version without lock file - SOLUTION
+LECTURE      -How lock file is handled
+LECTURE      -Lock file summary
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Updating NPM packages
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LECTURE      -Update NPM packages overview
+CHALLENGE    -Update project dependencies
+✓ CHALLENGE  -Update project dependencies - SOLUTION
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NPM Scripts
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LECTURE       -Introduction to the NPM scripts
+PRACTICE      -Start NPM script
+CHALLENGE     -Create prestart script
+✓ CHALLENGE   -Create prestart script - SOLUTION
+PRACTICE      -Custom NPM scripts
+CHALLENGE     -Run NPM scripts simultaneously
+✓ CHALLENGE   -Run NPM scripts simultaneously - SOLUTION
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Executable scripts in the NPM
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LECTURE   -NPM .bin Folder with Executable Scripts
+PRACTICE  -Explore .bin Folder on the Mac
+PRACTICE  -Explore .bin Folder on Windows
+LECTURE   -NPM Scripts Wrap-Up
+LECTURE   -Additional NPM topics

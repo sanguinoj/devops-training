@@ -1,0 +1,59 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Git Immersion
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+http://gitimmersion.com/
+
+LAB 1 Setup
+LAB 2 More Setup
+LAB 3  Create a Project
+LAB 4  Checking Status
+LAB 5  Making Changes
+LAB 6  Staging Changes
+LAB 7  Staging and Committing
+LAB 8  Committing Changes
+LAB 9  Changes, not Files
+LAB 10History
+LAB 11 Aliases
+LAB 12 Getting Old Versions
+LAB 13 Tagging versions
+LAB 14 Undoing Local Changes (before staging)
+LAB 15 Undoing Staged Changes (before committing)
+LAB 16 Undoing Committed Changes
+LAB 17 Removing Commits from a Branch
+LAB 18 Remove the oops tag
+LAB 19 Amending Commits
+LAB 20 Moving Files
+LAB 21 More Structure
+LAB 22 Git Internals: The .git directory
+LAB 23 Git Internals: Working directly with Git Objects
+LAB 24 Creating a Branch
+LAB 25 Navigating Branches
+LAB 26 Changes in Master
+LAB 27 Viewing Diverging Branches
+LAB 28 Merging
+LAB 29 Creating a Conflict
+LAB 30 Resolving Conflicts
+LAB 31 Rebasing VS Merging
+LAB 32 Resetting the Greet Branch
+LAB 33 Resetting the Master Branch
+LAB 34 Rebasing
+LAB 35 Merging Back to Master
+LAB 36 Multiple Repositories
+LAB 37 Cloning Repositories
+LAB 38 Review the Cloned Repository
+LAB 39 What is Origin?
+LAB 40 Remote Branches
+LAB 41 Change the Original Repository
+LAB 42 Fetching Changes
+LAB 43 Merging Pulled Changes
+LAB 44 Pulling Changes
+LAB 45 Adding a Tracking Branch
+LAB 46 Bare Repositories
+LAB 47 Adding a Remote Repository
+LAB 48 Pushing a Change
+LAB 49 Pulling Shared Changes
+LAB 50 Hosting your Git Repositories
+LAB 51 Sharing Repos
+LAB 52 Advanced / Future Topics
+LAB 53 Thank You

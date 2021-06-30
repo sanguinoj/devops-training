@@ -1,0 +1,300 @@
+2021/06/27-20:49:21.237 36a4 Reusing MANIFEST C:\Users\jsnl\AppData\Roaming\Microsoft\Teams\Local Storage\leveldb/MANIFEST-000001
+2021/06/27-20:49:21.239 36a4 Recovering log #515
+2021/06/27-20:49:21.240 36a4 Reusing old log C:\Users\jsnl\AppData\Roaming\Microsoft\Teams\Local Storage\leveldb/000515.log 
+2021/06/27-20:50:21.268 2e3c Level-0 table #520: started
+2021/06/27-20:50:21.272 2e3c Level-0 table #520: 58674 bytes OK
+2021/06/27-20:50:21.273 2e3c Delete type=0 #515
+2021/06/27-21:29:30.754 2e3c Level-0 table #522: started
+2021/06/27-21:29:30.770 2e3c Level-0 table #522: 130043 bytes OK
+2021/06/27-21:29:30.773 2e3c Delete type=0 #519
+2021/06/27-21:45:32.529 2e3c Level-0 table #524: started
+2021/06/27-21:45:32.533 2e3c Level-0 table #524: 50397 bytes OK
+2021/06/27-21:45:32.534 2e3c Delete type=0 #521
+2021/06/27-22:41:32.081 2e3c Level-0 table #526: started
+2021/06/27-22:41:32.094 2e3c Level-0 table #526: 53846 bytes OK
+2021/06/27-22:41:32.096 2e3c Delete type=0 #523
+2021/06/27-22:41:32.098 2e3c Compacting 4@0 + 1@1 files
+2021/06/27-22:41:32.140 2e3c Generated table #527@0: 242 keys, 703471 bytes
+2021/06/27-22:41:32.140 2e3c Compacted 4@0 + 1@1 files => 703471 bytes
+2021/06/27-22:41:32.141 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/27-22:41:32.141 2e3c Delete type=2 #517
+2021/06/27-22:41:32.141 2e3c Delete type=2 #520
+2021/06/27-22:41:32.141 2e3c Delete type=2 #522
+2021/06/27-22:41:32.142 2e3c Delete type=2 #524
+2021/06/27-22:41:32.142 2e3c Delete type=2 #526
+2021/06/27-22:57:45.542 2e3c Level-0 table #529: started
+2021/06/27-22:57:45.556 2e3c Level-0 table #529: 53814 bytes OK
+2021/06/27-22:57:45.558 2e3c Delete type=0 #525
+2021/06/27-23:37:35.644 2e3c Level-0 table #531: started
+2021/06/27-23:37:35.648 2e3c Level-0 table #531: 54184 bytes OK
+2021/06/27-23:37:35.649 2e3c Delete type=0 #528
+2021/06/28-01:29:35.766 2e3c Level-0 table #533: started
+2021/06/28-01:29:35.778 2e3c Level-0 table #533: 59327 bytes OK
+2021/06/28-01:29:35.780 2e3c Delete type=0 #530
+2021/06/28-03:21:38.893 2e3c Level-0 table #535: started
+2021/06/28-03:21:38.908 2e3c Level-0 table #535: 56419 bytes OK
+2021/06/28-03:21:38.910 2e3c Delete type=0 #532
+2021/06/28-03:21:38.912 2e3c Compacting 4@0 + 1@1 files
+2021/06/28-03:21:38.964 2e3c Generated table #536@0: 242 keys, 703430 bytes
+2021/06/28-03:21:38.964 2e3c Compacted 4@0 + 1@1 files => 703430 bytes
+2021/06/28-03:21:38.965 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-03:21:38.965 2e3c Delete type=2 #527
+2021/06/28-03:21:38.965 2e3c Delete type=2 #529
+2021/06/28-03:21:38.966 2e3c Delete type=2 #531
+2021/06/28-03:21:38.966 2e3c Delete type=2 #533
+2021/06/28-03:21:38.966 2e3c Delete type=2 #535
+2021/06/28-03:38:23.148 2e3c Level-0 table #538: started
+2021/06/28-03:38:23.162 2e3c Level-0 table #538: 52626 bytes OK
+2021/06/28-03:38:23.164 2e3c Delete type=0 #534
+2021/06/28-05:29:42.440 2e3c Level-0 table #540: started
+2021/06/28-05:29:42.453 2e3c Level-0 table #540: 56417 bytes OK
+2021/06/28-05:29:42.456 2e3c Delete type=0 #537
+2021/06/28-06:09:35.619 2e3c Level-0 table #542: started
+2021/06/28-06:09:35.627 2e3c Level-0 table #542: 52478 bytes OK
+2021/06/28-06:09:35.628 2e3c Delete type=0 #539
+2021/06/28-07:05:38.792 2e3c Level-0 table #544: started
+2021/06/28-07:05:38.804 2e3c Level-0 table #544: 53818 bytes OK
+2021/06/28-07:05:38.807 2e3c Delete type=0 #541
+2021/06/28-07:05:38.809 2e3c Compacting 4@0 + 1@1 files
+2021/06/28-07:05:38.836 2e3c Generated table #545@0: 242 keys, 703515 bytes
+2021/06/28-07:05:38.836 2e3c Compacted 4@0 + 1@1 files => 703515 bytes
+2021/06/28-07:05:38.837 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-07:05:38.837 2e3c Delete type=2 #536
+2021/06/28-07:05:38.837 2e3c Delete type=2 #538
+2021/06/28-07:05:38.838 2e3c Delete type=2 #540
+2021/06/28-07:05:38.838 2e3c Delete type=2 #542
+2021/06/28-07:05:38.838 2e3c Delete type=2 #544
+2021/06/28-08:01:35.521 2e3c Level-0 table #547: started
+2021/06/28-08:01:35.534 2e3c Level-0 table #547: 53837 bytes OK
+2021/06/28-08:01:35.536 2e3c Delete type=0 #543
+2021/06/28-08:17:42.172 2e3c Level-0 table #549: started
+2021/06/28-08:17:42.185 2e3c Level-0 table #549: 52673 bytes OK
+2021/06/28-08:17:42.188 2e3c Delete type=0 #546
+2021/06/28-08:57:35.809 2e3c Level-0 table #551: started
+2021/06/28-08:57:35.815 2e3c Level-0 table #551: 59746 bytes OK
+2021/06/28-08:57:35.816 2e3c Delete type=0 #548
+2021/06/28-09:42:41.048 2e3c Level-0 table #553: started
+2021/06/28-09:42:41.059 2e3c Level-0 table #553: 58747 bytes OK
+2021/06/28-09:42:41.062 2e3c Delete type=0 #550
+2021/06/28-09:42:41.063 2e3c Compacting 4@0 + 1@1 files
+2021/06/28-09:42:41.107 2e3c Generated table #554@0: 245 keys, 703743 bytes
+2021/06/28-09:42:41.107 2e3c Compacted 4@0 + 1@1 files => 703743 bytes
+2021/06/28-09:42:41.107 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-09:42:41.108 2e3c Delete type=2 #545
+2021/06/28-09:42:41.108 2e3c Delete type=2 #547
+2021/06/28-09:42:41.108 2e3c Delete type=2 #549
+2021/06/28-09:42:41.108 2e3c Delete type=2 #551
+2021/06/28-09:42:41.108 2e3c Delete type=2 #553
+2021/06/28-10:14:01.351 2e3c Level-0 table #556: started
+2021/06/28-10:14:01.364 2e3c Level-0 table #556: 54789 bytes OK
+2021/06/28-10:14:01.367 2e3c Delete type=0 #552
+2021/06/28-10:49:35.914 2e3c Level-0 table #558: started
+2021/06/28-10:49:35.926 2e3c Level-0 table #558: 52381 bytes OK
+2021/06/28-10:49:35.929 2e3c Delete type=0 #555
+2021/06/28-11:45:36.445 2e3c Level-0 table #560: started
+2021/06/28-11:45:36.458 2e3c Level-0 table #560: 54469 bytes OK
+2021/06/28-11:45:36.461 2e3c Delete type=0 #557
+2021/06/28-12:59:41.360 2e3c Level-0 table #562: started
+2021/06/28-12:59:41.364 2e3c Level-0 table #562: 71280 bytes OK
+2021/06/28-12:59:41.365 2e3c Delete type=0 #559
+2021/06/28-12:59:41.366 2e3c Compacting 4@0 + 1@1 files
+2021/06/28-12:59:41.389 2e3c Generated table #563@0: 262 keys, 704398 bytes
+2021/06/28-12:59:41.389 2e3c Compacted 4@0 + 1@1 files => 704398 bytes
+2021/06/28-12:59:41.389 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-12:59:41.390 2e3c Delete type=2 #554
+2021/06/28-12:59:41.390 2e3c Delete type=2 #556
+2021/06/28-12:59:41.390 2e3c Delete type=2 #558
+2021/06/28-12:59:41.390 2e3c Delete type=2 #560
+2021/06/28-12:59:41.390 2e3c Delete type=2 #562
+2021/06/28-13:37:35.687 2e3c Level-0 table #565: started
+2021/06/28-13:37:35.701 2e3c Level-0 table #565: 59443 bytes OK
+2021/06/28-13:37:35.704 2e3c Delete type=0 #561
+2021/06/28-14:16:51.560 2e3c Level-0 table #567: started
+2021/06/28-14:16:51.791 2e3c Level-0 table #567: 62728 bytes OK
+2021/06/28-14:16:51.792 2e3c Delete type=0 #564
+2021/06/28-15:03:17.479 2e3c Level-0 table #569: started
+2021/06/28-15:03:17.491 2e3c Level-0 table #569: 20938 bytes OK
+2021/06/28-15:03:17.492 2e3c Delete type=0 #566
+2021/06/28-18:17:35.730 2e3c Level-0 table #571: started
+2021/06/28-18:17:35.750 2e3c Level-0 table #571: 76556 bytes OK
+2021/06/28-18:17:35.752 2e3c Delete type=0 #568
+2021/06/28-18:17:35.753 2e3c Compacting 4@0 + 1@1 files
+2021/06/28-18:17:35.786 2e3c Generated table #572@0: 311 keys, 705990 bytes
+2021/06/28-18:17:35.786 2e3c Compacted 4@0 + 1@1 files => 705990 bytes
+2021/06/28-18:17:35.787 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-18:17:35.787 2e3c Delete type=2 #563
+2021/06/28-18:17:35.787 2e3c Delete type=2 #565
+2021/06/28-18:17:35.787 2e3c Delete type=2 #567
+2021/06/28-18:17:35.787 2e3c Delete type=2 #569
+2021/06/28-18:17:35.787 2e3c Delete type=2 #571
+2021/06/28-18:49:39.858 2e3c Level-0 table #574: started
+2021/06/28-18:49:39.867 2e3c Level-0 table #574: 56375 bytes OK
+2021/06/28-18:49:39.869 2e3c Delete type=0 #570
+2021/06/28-19:38:09.732 2e3c Level-0 table #576: started
+2021/06/28-19:38:09.737 2e3c Level-0 table #576: 68783 bytes OK
+2021/06/28-19:38:09.738 2e3c Delete type=0 #573
+2021/06/28-20:09:35.538 2e3c Level-0 table #578: started
+2021/06/28-20:09:35.547 2e3c Level-0 table #578: 59389 bytes OK
+2021/06/28-20:09:35.548 2e3c Delete type=0 #575
+2021/06/28-20:49:50.617 2e3c Level-0 table #580: started
+2021/06/28-20:49:50.629 2e3c Level-0 table #580: 56944 bytes OK
+2021/06/28-20:49:50.632 2e3c Delete type=0 #577
+2021/06/28-20:49:50.634 2e3c Compacting 4@0 + 1@1 files
+2021/06/28-20:49:50.677 2e3c Generated table #581@0: 314 keys, 706208 bytes
+2021/06/28-20:49:50.677 2e3c Compacted 4@0 + 1@1 files => 706208 bytes
+2021/06/28-20:49:50.678 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-20:49:50.679 2e3c Delete type=2 #572
+2021/06/28-20:49:50.679 2e3c Delete type=2 #574
+2021/06/28-20:49:50.679 2e3c Delete type=2 #576
+2021/06/28-20:49:50.679 2e3c Delete type=2 #578
+2021/06/28-20:49:50.679 2e3c Delete type=2 #580
+2021/06/28-21:30:36.607 2e3c Level-0 table #583: started
+2021/06/28-21:30:36.616 2e3c Level-0 table #583: 54583 bytes OK
+2021/06/28-21:30:36.618 2e3c Delete type=0 #579
+2021/06/28-22:01:35.785 2e3c Level-0 table #585: started
+2021/06/28-22:01:35.791 2e3c Level-0 table #585: 23330 bytes OK
+2021/06/28-22:01:35.792 2e3c Delete type=0 #582
+2021/06/28-22:49:39.772 2e3c Level-0 table #587: started
+2021/06/28-22:49:39.785 2e3c Level-0 table #587: 56465 bytes OK
+2021/06/28-22:49:39.788 2e3c Delete type=0 #584
+2021/06/28-23:49:39.897 2e3c Level-0 table #589: started
+2021/06/28-23:49:39.901 2e3c Level-0 table #589: 70036 bytes OK
+2021/06/28-23:49:39.902 2e3c Delete type=0 #586
+2021/06/28-23:49:39.903 2e3c Compacting 4@0 + 1@1 files
+2021/06/28-23:49:39.924 2e3c Generated table #590@0: 314 keys, 706296 bytes
+2021/06/28-23:49:39.924 2e3c Compacted 4@0 + 1@1 files => 706296 bytes
+2021/06/28-23:49:39.925 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/28-23:49:39.925 2e3c Delete type=2 #581
+2021/06/28-23:49:39.925 2e3c Delete type=2 #583
+2021/06/28-23:49:39.925 2e3c Delete type=2 #585
+2021/06/28-23:49:39.925 2e3c Delete type=2 #587
+2021/06/28-23:49:39.925 2e3c Delete type=2 #589
+2021/06/28-23:53:35.605 2e3c Level-0 table #592: started
+2021/06/28-23:53:35.611 2e3c Level-0 table #592: 23052 bytes OK
+2021/06/28-23:53:35.612 2e3c Delete type=0 #588
+2021/06/29-01:17:50.951 2e3c Level-0 table #594: started
+2021/06/29-01:17:50.956 2e3c Level-0 table #594: 23151 bytes OK
+2021/06/29-01:17:50.957 2e3c Delete type=0 #591
+2021/06/29-01:45:35.546 2e3c Level-0 table #596: started
+2021/06/29-01:45:35.559 2e3c Level-0 table #596: 53012 bytes OK
+2021/06/29-01:45:35.561 2e3c Delete type=0 #593
+2021/06/29-02:19:03.642 2e3c Level-0 table #598: started
+2021/06/29-02:19:03.653 2e3c Level-0 table #598: 60798 bytes OK
+2021/06/29-02:19:03.655 2e3c Delete type=0 #595
+2021/06/29-02:19:03.657 2e3c Compacting 4@0 + 1@1 files
+2021/06/29-02:19:03.686 2e3c Generated table #599@0: 314 keys, 706194 bytes
+2021/06/29-02:19:03.686 2e3c Compacted 4@0 + 1@1 files => 706194 bytes
+2021/06/29-02:19:03.687 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/29-02:19:03.687 2e3c Delete type=2 #590
+2021/06/29-02:19:03.687 2e3c Delete type=2 #592
+2021/06/29-02:19:03.687 2e3c Delete type=2 #594
+2021/06/29-02:19:03.687 2e3c Delete type=2 #596
+2021/06/29-02:19:03.687 2e3c Delete type=2 #598
+2021/06/29-02:57:28.659 2e3c Level-0 table #601: started
+2021/06/29-02:57:28.669 2e3c Level-0 table #601: 53875 bytes OK
+2021/06/29-02:57:28.671 2e3c Delete type=0 #597
+2021/06/29-04:11:03.606 2e3c Level-0 table #603: started
+2021/06/29-04:11:03.611 2e3c Level-0 table #603: 58213 bytes OK
+2021/06/29-04:11:03.612 2e3c Delete type=0 #600
+2021/06/29-04:58:53.410 2e3c Level-0 table #605: started
+2021/06/29-04:58:53.425 2e3c Level-0 table #605: 53877 bytes OK
+2021/06/29-04:58:53.428 2e3c Delete type=0 #602
+2021/06/29-06:25:35.629 2e3c Level-0 table #607: started
+2021/06/29-06:25:35.638 2e3c Level-0 table #607: 60197 bytes OK
+2021/06/29-06:25:35.638 2e3c Delete type=0 #604
+2021/06/29-06:25:35.639 2e3c Compacting 4@0 + 1@1 files
+2021/06/29-06:25:35.657 2e3c Generated table #608@0: 314 keys, 706196 bytes
+2021/06/29-06:25:35.657 2e3c Compacted 4@0 + 1@1 files => 706196 bytes
+2021/06/29-06:25:35.658 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/29-06:25:35.658 2e3c Delete type=2 #599
+2021/06/29-06:25:35.658 2e3c Delete type=2 #601
+2021/06/29-06:25:35.658 2e3c Delete type=2 #603
+2021/06/29-06:25:35.658 2e3c Delete type=2 #605
+2021/06/29-06:25:35.659 2e3c Delete type=2 #607
+2021/06/29-06:59:03.730 2e3c Level-0 table #610: started
+2021/06/29-06:59:03.738 2e3c Level-0 table #610: 52728 bytes OK
+2021/06/29-06:59:03.739 2e3c Delete type=0 #606
+2021/06/29-08:17:35.990 2e3c Level-0 table #612: started
+2021/06/29-08:17:36.000 2e3c Level-0 table #612: 60249 bytes OK
+2021/06/29-08:17:36.001 2e3c Delete type=0 #609
+2021/06/29-08:51:03.929 2e3c Level-0 table #614: started
+2021/06/29-08:51:03.939 2e3c Level-0 table #614: 57426 bytes OK
+2021/06/29-08:51:03.941 2e3c Delete type=0 #611
+2021/06/29-10:53:44.371 2e3c Level-0 table #616: started
+2021/06/29-10:53:44.376 2e3c Level-0 table #616: 67146 bytes OK
+2021/06/29-10:53:44.377 2e3c Delete type=0 #613
+2021/06/29-10:53:44.377 2e3c Compacting 4@0 + 1@1 files
+2021/06/29-10:53:44.397 2e3c Generated table #617@0: 314 keys, 706220 bytes
+2021/06/29-10:53:44.397 2e3c Compacted 4@0 + 1@1 files => 706220 bytes
+2021/06/29-10:53:44.397 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/29-10:53:44.398 2e3c Delete type=2 #608
+2021/06/29-10:53:44.398 2e3c Delete type=2 #610
+2021/06/29-10:53:44.398 2e3c Delete type=2 #612
+2021/06/29-10:53:44.398 2e3c Delete type=2 #614
+2021/06/29-10:53:44.398 2e3c Delete type=2 #616
+2021/06/29-11:31:49.101 2e3c Level-0 table #619: started
+2021/06/29-11:31:49.528 2e3c Level-0 table #619: 58051 bytes OK
+2021/06/29-11:31:49.530 2e3c Delete type=0 #615
+2021/06/29-11:54:07.387 2e3c Level-0 table #621: started
+2021/06/29-11:54:07.401 2e3c Level-0 table #621: 20849 bytes OK
+2021/06/29-11:54:07.402 2e3c Delete type=0 #618
+2021/06/29-12:20:20.974 2e3c Level-0 table #623: started
+2021/06/29-12:20:20.980 2e3c Level-0 table #623: 54760 bytes OK
+2021/06/29-12:20:20.981 2e3c Delete type=0 #620
+2021/06/29-12:52:08.347 2e3c Level-0 table #625: started
+2021/06/29-12:52:08.352 2e3c Level-0 table #625: 57399 bytes OK
+2021/06/29-12:52:08.354 2e3c Delete type=0 #622
+2021/06/29-12:52:08.354 2e3c Compacting 4@0 + 1@1 files
+2021/06/29-12:52:08.379 2e3c Generated table #626@0: 320 keys, 706410 bytes
+2021/06/29-12:52:08.379 2e3c Compacted 4@0 + 1@1 files => 706410 bytes
+2021/06/29-12:52:08.380 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/29-12:52:08.380 2e3c Delete type=2 #617
+2021/06/29-12:52:08.380 2e3c Delete type=2 #619
+2021/06/29-12:52:08.380 2e3c Delete type=2 #621
+2021/06/29-12:52:08.380 2e3c Delete type=2 #623
+2021/06/29-12:52:08.380 2e3c Delete type=2 #625
+2021/06/29-13:53:35.724 2e3c Level-0 table #628: started
+2021/06/29-13:53:35.740 2e3c Level-0 table #628: 28015 bytes OK
+2021/06/29-13:53:35.742 2e3c Delete type=0 #624
+2021/06/29-14:12:20.537 2e3c Level-0 table #630: started
+2021/06/29-14:12:20.547 2e3c Level-0 table #630: 52740 bytes OK
+2021/06/29-14:12:20.548 2e3c Delete type=0 #627
+2021/06/29-15:14:06.003 2e3c Level-0 table #632: started
+2021/06/29-15:14:06.007 2e3c Level-0 table #632: 56441 bytes OK
+2021/06/29-15:14:06.008 2e3c Delete type=0 #629
+2021/06/29-15:30:11.017 2e3c Level-0 table #634: started
+2021/06/29-15:30:11.026 2e3c Level-0 table #634: 52439 bytes OK
+2021/06/29-15:30:11.027 2e3c Delete type=0 #631
+2021/06/29-15:30:11.028 2e3c Compacting 4@0 + 1@1 files
+2021/06/29-15:30:11.054 2e3c Generated table #635@0: 320 keys, 706404 bytes
+2021/06/29-15:30:11.054 2e3c Compacted 4@0 + 1@1 files => 706404 bytes
+2021/06/29-15:30:11.055 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/29-15:30:11.055 2e3c Delete type=2 #626
+2021/06/29-15:30:11.055 2e3c Delete type=2 #628
+2021/06/29-15:30:11.055 2e3c Delete type=2 #630
+2021/06/29-15:30:11.055 2e3c Delete type=2 #632
+2021/06/29-15:30:11.055 2e3c Delete type=2 #634
+2021/06/29-16:15:15.724 2e3c Level-0 table #637: started
+2021/06/29-16:15:15.736 2e3c Level-0 table #637: 53906 bytes OK
+2021/06/29-16:15:15.737 2e3c Delete type=0 #633
+2021/06/29-17:27:41.133 2e3c Level-0 table #639: started
+2021/06/29-17:27:41.142 2e3c Level-0 table #639: 56449 bytes OK
+2021/06/29-17:27:41.144 2e3c Delete type=0 #636
+2021/06/29-17:30:09.730 2e3c Level-0 table #641: started
+2021/06/29-17:30:09.735 2e3c Level-0 table #641: 52536 bytes OK
+2021/06/29-17:30:09.735 2e3c Delete type=0 #638
+2021/06/29-18:24:10.399 2e3c Level-0 table #643: started
+2021/06/29-18:24:10.412 2e3c Level-0 table #643: 70573 bytes OK
+2021/06/29-18:24:10.414 2e3c Delete type=0 #640
+2021/06/29-18:24:10.416 2e3c Compacting 4@0 + 1@1 files
+2021/06/29-18:24:10.446 2e3c Generated table #644@0: 320 keys, 706426 bytes
+2021/06/29-18:24:10.446 2e3c Compacted 4@0 + 1@1 files => 706426 bytes
+2021/06/29-18:24:10.447 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/06/29-18:24:10.447 2e3c Delete type=2 #635
+2021/06/29-18:24:10.447 2e3c Delete type=2 #637
+2021/06/29-18:24:10.448 2e3c Delete type=2 #639
+2021/06/29-18:24:10.448 2e3c Delete type=2 #641
+2021/06/29-18:24:10.448 2e3c Delete type=2 #643
+2021/06/29-18:49:39.932 2e3c Level-0 table #646: started
+2021/06/29-18:49:39.936 2e3c Level-0 table #646: 56492 bytes OK
+2021/06/29-18:49:39.937 2e3c Delete type=0 #642

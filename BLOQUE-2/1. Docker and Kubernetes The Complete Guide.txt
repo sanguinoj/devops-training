@@ -1,0 +1,16 @@
+-------------------------------------------------------------
+Docker and Kubernetes: The Complete Guide
+-------------------------------------------------------------
+https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/
+
+Go from zero to hero with Git source control step-by-step with easy to understand examples. Become the next Git expert!
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+COURSE CONTENT
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+19 sections • 333 lectures • 22h 13m total length
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Introduction
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,99 @@
+-------------------------------------------------------------
+DevOps CI CD with Jenkins Maven Git and Pipeline
+-------------------------------------------------------------
+https://www.udemy.com/course/devops-ci-cd-with-jenkins-maven-git-and-pipeline/
+
+Learn DevOps Continuous Integration and Delivery using Jenkins, Maven and build fully functional Jenkins pipelines
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+COURSE CONTENT
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+8 sections • 54 lectures • 3h 0m total length
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Introduction
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Course Introduction
+Course Structure
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DevOps Continuos Integration Continuous Delivery -Concepts
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Concepts- DevOps Continuos Integration Continuous Delivery
+Jenkins Introduction
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Initial Set Up
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Section Introduction
+Install Java - Prerequisite for running Jenkins
+Download Jenkins
+Install Jenkins using Windows Installer
+Optional -Jenkins as stand alone Java program
+Install Tomcat
+Optional - Jenkins as a tomcat application
+Jenkins UI Walkthrough
+First Jenkins Job - Hello World
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Basics of Git Version Control
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Git - Basics
+Git Installation
+First Git Repository
+Git - Cloning your repository and making changes
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Apache Maven
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Maven -Section Introduction
+Maven Installation
+Maven - Core concepts
+Maven - Hello World
+POM and Maven Coordinates
+Plugins and Goals
+Maven Lifecycle
+Maven Repositories
+Dependency Management
+Convention over configuration
+Eclipse IDE for Maven - Installation
+Create a WebApplication using Maven
+Assignment
+Solution
+Multi-Module Projects
+Compiler Plugin
+Checkstyle Plugin
+Surefire Plugin
+Web Application Deployment to Tomcat
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Jenkins -Implement DevOps CI CD
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Add Maven Project to Git Version Control
+Jenkins Continuous Integration - Poll Git repository
+Jenkins - Maven Integration
+Jenkins Continuous Integration - Checkstyle Code Analysis
+Jenkins Continuous Testing - JUnit
+Commit changes to GitHub Repository
+Jenkins Continuous Deployment - Deploy to Stage Environment
+Jenkins Build Pipeline
+Jenkins Continuous Delivery - Deploy to Production
+Email Notifications
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+New: Jenkins Pipeline as Code
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Section Introduction
+Master Slave Setup for Windows
+Master Slave setup for Linux
+Section Introduction
+Setting up Jenkins for Pipeline as code
+First Jenkins Pipeline as Code
+More Jenkins Pipeline syntax
+Build CI CD Pipeline using Jenkins Pipeline as Code

@@ -1,0 +1,4 @@
+
+
+
+https://qconlondon.com/system/files/presentation-slides/cloud_native_ci_cd_with_jenkins_x_and_knative_pipelines.pdf

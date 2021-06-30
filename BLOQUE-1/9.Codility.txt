@@ -1,0 +1,12 @@
+8. CODILITY
+
+8.1 GitlabciSimplePipeline
+https://app.codility.com/tasks/gitlabci_simple_pipeline/
+
+8.2 McqJenkins2
+https://app.codility.com/tasks/mcq_jenkins2/
+
+8.3  JsonSchemaValidation
+https://app.codility.com/tasks/json_schema_validation/
+
+
