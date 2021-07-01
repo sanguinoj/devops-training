@@ -1,6 +1,9 @@
 ++++++++++++++++++++++++++++++++++++++++
 Happy Path / Disable Fast Forward Merges
 ++++++++++++++++++++++++++++++++++++++++++++
+
+https://chercher.tech/git/git-branching-merging#disable-fast-forward
+
 Sabemos cómo hacer una combinación de avance rápido en Git, ahora, 
 Comprendamos cómo deshabilitar la combinación de avance rápido en Git y siga las instrucciones a continuación
 
